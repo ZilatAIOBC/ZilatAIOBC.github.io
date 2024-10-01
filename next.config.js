@@ -1,8 +1,6 @@
-const optimizedImages = require('next-optimized-images');
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  reactStrictMode: true,
+}
 
-module.exports = optimizedImages({
-  images: {
-    disableStaticImages: true,
-    domains: ['images.unsplash.com'],
-  }
-});
+module.exports = nextConfig
