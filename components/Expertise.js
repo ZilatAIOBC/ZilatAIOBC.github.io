@@ -10,9 +10,9 @@ const Expertise = () => {
         <div className='container'>
           <div className='heading-title'>
             <Title title='Our expertise' />
-            <p>Vivamus a ligula ut velit placerat egestas at id leo. Nulla ac volutpat nunc. Suspendisse ut magna porttitor, sollicitudin ligula at, molestie dolor.</p>
+            <p>At Nexus Digital Solutions, we offer a comprehensive range of digital services designed to elevate your business</p>
           </div>
-          <div className='hero-content grid-4'>
+          <div className='hero-content grid-3'>
             {expertise.map((item) => (
               <Card data={item} key={item.id} caption='learn more' />
             ))}

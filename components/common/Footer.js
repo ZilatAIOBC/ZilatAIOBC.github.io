@@ -17,9 +17,9 @@ const Footer = () => {
               </span>
               <br />
               <br />
-              <h3>+1 001 234 5678</h3>
+              <h3>+92 310 551 3669</h3>
               <br />
-              <button className='button-primary'>Request for quote</button>
+              {/* <button as={Link} href="/contact" className='button-primary'>Contact Us</button> */}
             </div>
             <ul>
               <h3>COMPANY</h3>
@@ -88,8 +88,8 @@ const Footer = () => {
               <span>© 2023 THE SEVEN. ALL RIGHTS RESERVED.</span>
             </div>
             <div className='connect'>
-              <span>GORKCODER COMPANY</span>
-              <span> &nbsp; | &nbsp; </span>
+              {/* <span>GORKCODER COMPANY</span> */}
+              {/* <span> &nbsp; | &nbsp; </span> */}
               <span>TERMS & CONDITIONS</span>
             </div>
           </div>

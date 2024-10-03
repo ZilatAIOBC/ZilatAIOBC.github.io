@@ -1,5 +1,6 @@
 import Footer from "./Footer"
 import Header from "./Header"
+import CalendlyBadgeWidget from "@/components/calendly"
 
 const Layout = (props) => {
   return (
@@ -7,6 +8,7 @@ const Layout = (props) => {
       <Header />
       <main>{props.children}</main>
       <Footer />
+      <CalendlyBadgeWidget/>
     </>
   )
 }

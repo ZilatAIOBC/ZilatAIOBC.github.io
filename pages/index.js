@@ -1,4 +1,3 @@
-import CalendlyBadgeWidget from "@/components/calendly"
 import { Hero } from "@/sections"
 import Head from "next/head"
 
@@ -9,7 +8,6 @@ export default function Home() {
         <title>7Creative Desgin</title>
       </Head>
       <Hero />
-      <CalendlyBadgeWidget/>
     </>
   )
 }

@@ -26,7 +26,11 @@ const Hero = () => {
         <div className='container'>
           <div className='heading-title'>
             <Title title='The last digital agency you ll ever need' />
-            <p>Suspendisse ut magna porttitor, sollicitudin ligula at, molestie dolor. Vivamus a ligula ut velit placerat egestas at id leo. Nulla ac volutpat nunc. Nulla facilisi. Pellentesque tempus tellusut magna porttitor scelerisque.</p>
+            <p>At the intersection of innovation and expertise, Nexus Digital Solutions stands as your premier partner for comprehensive digital transformation. We are the connective tissue between your vision and its realization in the digital realm.
+              <br></br>
+              Our commitment to excellence, coupled with our diverse range of services, positions us uniquely in the digital landscape. From artificial intelligence to branding, we offer end-to-end solutions that drive your business forward.
+              <br></br>
+              Experience the power of connected digital solutions. Let Nexus Digital Solutions be the catalyst for your digital success story.</p>
           </div>
           <div className='hero-content grid-4'>
             {home.map((item, i) => (

@@ -24,27 +24,45 @@ export const home = [
 export const expertise = [
   {
     id: 1,
+    title: "Artificial Intelligence",
+    cover: "../images/e3.jpg",
+    desc: [{ text: "Artificial Intelligence" }, { text: "AI" }, { text: "Chatbot" }, { text: "Hosting" }, { text: "Website audit" }],
+    para: "Optimizing performance through advanced testing and auditing",
+  },
+  {
+    id: 1,
     title: "Web Design & Development",
     cover: "../images/e1.jpg",
     desc: [{ text: "Web design" }, { text: "Web development" }, { text: "Custom icons & illustrations" }, { text: "Hosting" }, { text: "Website audit" }],
+    para: "Crafting exceptional digital experiences that set you apart",
+  },
+  {
+    id: 1,
+    title: "Mobile Development",
+    cover: "../images/e1.jpg",
+    desc: [{ text: "Web design" }, { text: "Web development" }, { text: "Custom icons & illustrations" }, { text: "Hosting" }, { text: "Website audit" }],
+    para: "Building complex enterprise solutions for the modern age",
   },
   {
     id: 2,
     title: "Digital Marketing",
     cover: "../images/e2.jpg",
     desc: [{ text: "Social media marketing" }, { text: "Marketing campaigns" }, { text: "Markting management" }, { text: "SEO" }],
+    para:"Amplifying your online presence for maximum impact"
   },
   {
     id: 3,
-    title: "E-Commerce",
+    title: "UI/UX Design",
     cover: "../images/e3.jpg",
     desc: [{ text: "E-Commerce website design" }, { text: "WooCommerce" }, { text: "Content management" }, { text: "Hosting" }],
+    para:"Creating intuitive, user-centric designs that captivate and convert"
   },
   {
     id: 4,
     title: "Branding & Creative Services",
     cover: "../images/e4.jpg",
     desc: [{ text: "Visual identity" }, { text: "Branding for social media" }, { text: "Custom illustrations" }],
+    para:" Forging powerful identities that resonate with your audience"
   },
 ]
 export const testimonial = [
