@@ -12,7 +12,7 @@ const Hero = () => {
     <>
       <section className='hero'>
         <div className='container'>
-          <TitleLogo title='creative' caption='7' className='logobg' />
+          <TitleLogo title='Digital Solutions' caption='Nexus ' className='logobg' />
           <h1 className='hero-title'>WE BUILD DIGITAL EXPERIENCES</h1>
 
           <div className='sub-heading'>
@@ -26,11 +26,7 @@ const Hero = () => {
         <div className='container'>
           <div className='heading-title'>
             <Title title='The last digital agency you ll ever need' />
-            <p>At the intersection of innovation and expertise, Nexus Digital Solutions stands as your premier partner for comprehensive digital transformation. We are the connective tissue between your vision and its realization in the digital realm.
-              <br></br>
-              Our commitment to excellence, coupled with our diverse range of services, positions us uniquely in the digital landscape. From artificial intelligence to branding, we offer end-to-end solutions that drive your business forward.
-              <br></br>
-              Experience the power of connected digital solutions. Let Nexus Digital Solutions be the catalyst for your digital success story.</p>
+            <p>At the intersection of innovation and expertise, Nexus Digital Solutions stands as your premier partner for comprehensive digital transformation. We are the connective tissue between your vision and its realization in the digital realm.</p>
           </div>
           <div className='hero-content grid-4'>
             {home.map((item, i) => (

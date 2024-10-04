@@ -14,7 +14,7 @@ export const home = [
   },
   {
     icon: <VscFileSubmodule size={25} />,
-    title: "100+ cuccessful cases in portfolio",
+    title: "100+ successful cases in portfolio",
   },
   {
     icon: <BiUser size={25} />,
@@ -70,28 +70,28 @@ export const testimonial = [
     id: 1,
     name: "Alexander Black",
     cover: "../images/e1.jpg",
-    post: "Seven consulting - CEO",
+    post: "Nexus consulting - CEO",
     desc: "Nunc fermentum - tempus erat ligula, sit amet lacinia justo cursus ac. Suspendisse quis nulla tincidunt! Lorem ipsum dolor amet at ornare ex, quis fringilla tortor! Nunc consectetur feugiat rutrum. Sed rhoncus sapien!",
   },
   {
     id: 2,
     name: "Diana Green",
     cover: "../images/e2.jpg",
-    post: "Seven Arts - marketing manager",
+    post: "Nexus Arts - marketing manager",
     desc: "Cras at ornare fermentum quam et tortor euismod, vel maximus metus tristique at ornare ex, quis fringilla tortor. Aenean semper neque quis consectetur lobortis. Quisque nec convallis ex. Aenean ut metus et nunc cursus aliquet.",
   },
   {
     id: 3,
     name: "Alexander Black",
     cover: "../images/e3.jpg",
-    post: "Seven consulting - CEO",
+    post: "Nexus consulting - CEO",
     desc: "Nunc fermentum - tempus erat ligula, sit amet lacinia justo cursus ac. Suspendisse quis nulla tincidunt! Lorem ipsum dolor amet at ornare ex, quis fringilla tortor! Nunc consectetur feugiat rutrum. Sed rhoncus sapien!",
   },
   {
     id: 4,
     name: "Diana Green",
     cover: "../images/e4.jpg",
-    post: "Seven Arts - marketing manager",
+    post: "Nexus Arts - marketing manager",
     desc: "Cras at ornare fermentum quam et tortor euismod, vel maximus metus tristique at ornare ex, quis fringilla tortor. Aenean semper neque quis consectetur lobortis. Quisque nec convallis ex. Aenean ut metus et nunc cursus aliquet.",
   },
 ]

@@ -11,7 +11,7 @@ const Banner = () => {
             <TitleLogo title='Lets take your business to the next level!' />
           </div>
           <div>
-            <button className='button-primary'>Request a call-back</button>
+            <button className='button-primary' style={{width:'200px'}}>Contact Us</button>
           </div>
         </div>
       </section>

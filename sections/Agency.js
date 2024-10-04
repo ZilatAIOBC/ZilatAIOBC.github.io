@@ -48,15 +48,16 @@ const Agency = () => {
               <TitleSm title='Our mission' />
               <br />
               <p className='misson-p'>To be the go-to agency for businesses seeking innovative, reliable, and impactful software services, recognized globally for our expertise, integrity, and client-centric approach.</p>
-            </div>
-          </div>
-          <ul style={{color:"rgba(255, 255, 255, 0.5)"}}>
+              <ul style={{color:"rgba(255, 255, 255, 0.5)"}}>
             <li><b style={{color:"#fff"}}>Excellence:</b> We pursue the highest standards in everything we do, from code quality to client communication.</li>
             <li><b style={{color:"#fff"}}>Innovation:</b> We constantly push the boundaries of what's possible, embracing new technologies and methodologies to deliver forward-thinking solutions.</li>
             <li><b style={{color:"#fff"}}>Collaboration:</b> We believe in the power of teamwork, both within our agency and in partnership with our clients.</li>
             <li><b style={{color:"#fff"}}>Integrity:</b> We operate with transparency and honesty, building trust-based relationships that stand the test of time.</li>
             <li><b style={{color:"#fff"}}>Client Success:</b> Your success is our success. We're committed to delivering solutions that drive real business results.</li>
           </ul>
+            </div>
+          </div>
+
           <section className='hero-sec' style={{textAlign:"left"}}>
         <div className='container'>
           <div className='heading-title'>
