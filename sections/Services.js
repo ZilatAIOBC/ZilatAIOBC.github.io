@@ -1,7 +1,7 @@
+import React from "react"
 import { expertise } from "@/assets/data/dummydata"
 import { Card } from "@/components/common/Card"
 import { Title, TitleSm } from "@/components/common/Title"
-import React from "react"
 
 const Services = () => {
   return (
@@ -15,7 +15,7 @@ const Services = () => {
           </div>
           <div className='grid-2 py'>
             {expertise.map((item) => (
-              <Card data={item} key={item.id} caption={item.post} show={true} />
+              <Card data={item} key={item.id} caption={item.post} show={true} path='services' />
             ))}
           </div>
         </div>
@@ -24,4 +24,4 @@ const Services = () => {
   )
 }
 
-export default Services
+export default Services;

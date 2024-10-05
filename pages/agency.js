@@ -5,7 +5,7 @@ const AgencyPage = () => {
   return (
     <>
       <Head>
-        <title>About Agency</title>
+        <title>About Us - Nexus Digital Solutions</title>
       </Head>
       <Agency />
     </>

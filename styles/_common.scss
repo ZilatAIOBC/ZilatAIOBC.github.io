@@ -70,6 +70,17 @@
     color: rgba($white, 0.5);
   }
 }
+.heading-title-ser{
+  text-align: center;
+  max-width: 65%;
+  margin: auto;
+  padding-top: $s;
+  padding-bottom: $s;
+  p {
+    margin: $s 0;
+    color: rgba($white, 0.5);
+  }
+}
 .card {
   h1 {
     transition: 0.5s;
@@ -152,6 +163,10 @@
     left: 85%;
   }
   .heading-title {
+    max-width: 100%;
+    padding: 50px 0;
+  }
+  .heading-title-ser {
     max-width: 100%;
     padding: 50px 0;
   }

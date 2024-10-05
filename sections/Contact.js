@@ -21,24 +21,24 @@ const Contact = () => {
               <div className='contact-deatils'>
                 <div className='box'>
                   <FiHeadphones size={30} className='icons' />
-                  <h3>1-001-234-5678</h3>
+                  <h3>92-310-5513-669</h3>
                   <span>Call us: Mon - Fri 9:00 - 19:00</span>
                 </div>
                 <div className='box'>
                   <IoLocationOutline size={30} className='icons' />
-                  <h3>New York</h3>
-                  <span>990 Madison Ave, Midtown Manhattan, 2th Floor, NY 10022</span>
+                  <h3>Rawalpindi, Pakistan</h3>
+                  <span>CB 1964 Noorani Mohallah Tench Bhatta, 46000</span>
                 </div>
                 <div className='box'>
                   <FiHelpCircle size={30} className='icons' />
-                  <h3>info@dream-theme.com</h3>
+                  <h3>zilataiobc@gmail.com</h3>
                   <span>Drop us a line anytime!</span>
                 </div>
-                <div className='box'>
+                {/* <div className='box'>
                   <BiUserCircle size={30} className='icons' />
-                  <h3>hr@dream-theme.com</h3>
+                  <h3>zilataiobc@gmail.com</h3>
                   <span>Career at Nexus Digital Solutions</span>
-                </div>
+                </div> */}
               </div>
               <ul>
                 <li className='icon'>
