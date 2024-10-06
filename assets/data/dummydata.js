@@ -2,6 +2,7 @@ import { AiOutlineCalendar } from "react-icons/ai"
 import { TfiRulerPencil } from "react-icons/tfi"
 import { VscFileSubmodule } from "react-icons/vsc"
 import { BiUser } from "react-icons/bi";
+import Service_01 from "@/public/images/ser0.jpg"
 
 export const home = [
   {
