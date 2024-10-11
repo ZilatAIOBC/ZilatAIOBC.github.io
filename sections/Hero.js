@@ -16,8 +16,11 @@ const Hero = () => {
           <h1 className='hero-title'>WE BUILD DIGITAL EXPERIENCES</h1>
 
           <div className='sub-heading'>
-            <TitleSm title='WEBSITES' /> <span>.</span>
-            <TitleSm title='BRANDING' /> <span>.</span>
+            <TitleSm title='AI' /> <span>.</span>
+            <TitleSm title='Web Dev' /> <span>.</span>
+            <TitleSm title='Mobile Dev' /> <span>.</span>
+            {/*<TitleSm title='WEBSITES' /> <span>.</span>
+            <TitleSm title='BRANDING' /> <span>.</span> */}
             <TitleSm title='DIGITAL MARKETING' />
           </div>
         </div>
@@ -41,11 +44,11 @@ const Hero = () => {
       </section>
       <Expertise />
       <Banner />
-      <Testimonial />
+      {/* <Testimonial /> */}
       {/* <ShowCase /> */}
-      <Brand />
+      {/* <Brand /> */}
 
-      <div className='text-center'>
+      <div className='text-center' style={{paddingTop:"40px"}}>
         <Title title='Latest news & articles' />
       </div>
       <BlogCard />

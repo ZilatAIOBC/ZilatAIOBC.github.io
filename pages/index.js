@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Nexus Digital Solutions Desgin</title>
+        <title>Nexus Digital Solutions</title>
       </Head>
       <Hero />
     </>

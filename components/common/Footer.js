@@ -8,7 +8,7 @@ const Footer = () => {
     <>
       <footer>
         <div className='container'>
-          <div className='grid-4'>
+          <div className='grid-3'>
             <div className='logo'>
               <TitleLogo title='' caption='NDS' className='logobg' />
               <br />
@@ -60,7 +60,7 @@ const Footer = () => {
                 <Link href='/services'>Branding & Creative Services</Link>
               </li>
             </ul>
-            <ul>
+            {/* <ul>
               <h3>CONNECT</h3>
               <div className='connect'>
                 <li>
@@ -84,7 +84,7 @@ const Footer = () => {
                   </Link>
                 </li>
               </div>
-            </ul>
+            </ul> */}
           </div>
           <div className='legal connect py'>
             <div className='text'>

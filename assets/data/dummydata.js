@@ -329,37 +329,115 @@ export const brand = [
 export const blogdata = [
   {
     id: 1,
-    title: "Ligula vel urna accumsan placerat",
-    cover: "../images/b1.webp",
-    catgeory: "INDUSTRY",
-    date: "JANUARY 12, 2023",
-    path:"blogs"
+    title: "How AI-Driven Testing is Revolutionizing Software Development",
+    cover: "../images/blog01.jpeg",
+    category: "ARTIFICIAL INTELLIGENCE",
+    date: "OCTOBER 15, 2024",
+    path: "blogs",
+    excerpt: "Discover how AI-driven testing is transforming the software development landscape, improving efficiency and reliability in ways never before possible.",
+    content: `Artificial Intelligence is reshaping the software testing industry, bringing unprecedented levels of efficiency and accuracy to quality assurance processes. This blog post explores the cutting-edge applications of AI in software testing, including:
+
+    1. Automated test case generation
+    2. Intelligent test data creation
+    3. Self-healing test scripts
+    4. Predictive analytics for test prioritization
+    5. Visual UI testing with machine learning
+
+    Learn how these innovations are helping companies reduce testing time, lower costs, and deliver higher-quality software products to market faster than ever before.`
   },
   {
     id: 2,
-    title: "Don’t underestimate the lorem ipsum dolor amet",
-    cover: "../images/b2.jpg",
-    catgeory: "TIPS & TRICKS",
-    date: "OCTOBER 20, 2023",
-    path:"blogs"
+    title: "10 Essential UI/UX Design Principles for Boosting User Engagement",
+    cover: "../images/blog02.png",
+    category: "UI/UX DESIGN",
+    date: "SEPTEMBER 28, 2024",
+    path: "blogs",
+    excerpt: "Master the art of creating engaging digital experiences with these 10 crucial UI/UX design principles that will keep your users coming back for more.",
+    content: `In today's competitive digital landscape, exceptional UI/UX design is crucial for standing out and retaining users. This comprehensive guide covers 10 essential principles that will elevate your design game:
+
+    1. Consistency in design elements
+    2. Clear visual hierarchy
+    3. Intuitive navigation structures
+    4. Effective use of white space
+    5. Responsive design for all devices
+    6. Accessibility considerations
+    7. Performance optimization
+    8. Personalization and adaptability
+    9. Microinteractions for delight
+    10. Data-driven design decisions
+
+    Implement these principles in your next project to create user interfaces that not only look great but also provide seamless, enjoyable experiences for your audience.`
   },
   {
     id: 3,
-    title: "Building the real VR lorem ipsum dolor amet glavrida from a scratch",
-    cover: "../images/b3.jpg",
-    catgeory: "TIPS & TRICKS",
-    date: "OCTOBER 9, 2023",
-    path:"blogs"
+    title: "The Future of Mobile App Development: Trends to Watch in 2025",
+    cover: "../images/blog03.jpeg",
+    category: "MOBILE DEVELOPMENT",
+    date: "AUGUST 17, 2024",
+    path: "blogs",
+    excerpt: "Stay ahead of the curve in mobile app development with our in-depth look at the trends shaping the industry in 2025 and beyond.",
+    content: `The mobile app development landscape is evolving rapidly, with new technologies and user expectations driving innovation. This forward-looking article examines the trends that will define mobile app development in 2025:
+
+    1. 5G-powered applications
+    2. Augmented Reality (AR) integration
+    3. AI and machine learning capabilities
+    4. Internet of Things (IoT) connectivity
+    5. Progressive Web Apps (PWAs)
+    6. Blockchain for enhanced security
+    7. Voice-activated interfaces
+    8. Foldable device optimization
+    9. Low-code/no-code development platforms
+    10. Sustainable and eco-friendly app design
+
+    Prepare your development team for the future by understanding and embracing these emerging trends in mobile app creation.`
   },
   {
     id: 4,
-    title: "What eleifend posuere tincidunt",
-    cover: "../images/b4.jpg",
-    catgeory: "EVENTS",
-    date: "OCTOBER 8, 2023",
-    path:"blogs"
+    title: "Mastering SEO in 2024: Advanced Techniques for Digital Dominance",
+    cover: "../images/blog04.jpeg",
+    category: "DIGITAL MARKETING",
+    date: "JULY 5, 2024",
+    path: "blogs",
+    excerpt: "Elevate your digital marketing strategy with cutting-edge SEO techniques that will propel your website to the top of search engine results pages.",
+    content: `Search Engine Optimization continues to be a critical component of digital marketing success. This in-depth guide covers advanced SEO strategies for 2024:
+
+    1. AI-powered content optimization
+    2. Voice search optimization
+    3. Video SEO for increased visibility
+    4. E-A-T (Expertise, Authoritativeness, Trustworthiness) signals
+    5. Core Web Vitals optimization
+    6. Natural language processing (NLP) for content creation
+    7. Local SEO strategies for global reach
+    8. Mobile-first indexing best practices
+    9. Schema markup for enhanced SERP features
+    10. User intent optimization
+
+    Implement these advanced techniques to improve your website's search engine rankings, drive organic traffic, and stay ahead of your competitors in the digital space.`
   },
-]
+  {
+    id: 5,
+    title: "Building a Strong Brand Identity in the Digital Age: A Comprehensive Guide",
+    cover: "../images/blog05.jpeg",
+    category: "BRANDING & CREATIVE SERVICES",
+    date: "JUNE 12, 2024",
+    path: "blogs",
+    excerpt: "Learn how to create a powerful and cohesive brand identity that resonates with your audience across all digital touchpoints.",
+    content: `In today's digital-first world, a strong brand identity is more important than ever. This comprehensive guide walks you through the process of building a memorable brand:
+
+    1. Defining your brand's core values and mission
+    2. Developing a unique brand voice and personality
+    3. Creating a visually consistent brand aesthetic
+    4. Designing an impactful logo and visual assets
+    5. Crafting a compelling brand story
+    6. Implementing brand guidelines across all platforms
+    7. Leveraging social media for brand awareness
+    8. Building brand loyalty through customer experience
+    9. Measuring and analyzing brand performance
+    10. Evolving your brand identity over time
+
+    Follow this guide to establish a strong, recognizable brand that stands out in the crowded digital marketplace and fosters lasting connections with your target audience.`
+  }
+];
 export const teamdata = [
   {
     id: 1,

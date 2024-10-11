@@ -7,6 +7,51 @@ import { FiHeadphones, FiHelpCircle } from "react-icons/fi"
 import { IoLocationOutline } from "react-icons/io5"
 
 const Contact = () => {
+  const [result, setResult] = React.useState("");
+  const onSubmit = async (event) => {
+    event.preventDefault();
+
+    // Create FormData object from the form
+    const formData = new FormData(event.target);
+
+    // Extract individual fields
+    const name = formData.get('name');
+    const email = formData.get('email');
+    const budget = formData.get('budget');
+    const timeframe = formData.get('timeframe');
+    const projectDetails = formData.get('projectDetails');
+
+    // Create a formatted message
+    const message = `
+  Project Details: ${projectDetails}
+  Time frame: ${timeframe}
+  Budget: ${budget}
+`;
+
+
+    // Clear the existing FormData and add only name, email, and the formatted message
+    const customFormData = new FormData();
+    customFormData.append('name', name);
+    customFormData.append('email', email);
+    customFormData.append('message', message);
+    customFormData.append("access_key", "6e3a9f53-ac53-4ec6-ac53-e679f6902f80");
+
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      body: customFormData
+    });
+
+    const data = await response.json();
+
+    if (data.success) {
+      setResult("Form Submitted Successfully");
+      event.target.reset();
+    } else {
+      console.log("Error", data);
+      setResult(data.message);
+    }
+  };
+
   return (
     <>
       <section className='contact bg-top'>
@@ -40,7 +85,7 @@ const Contact = () => {
                   <span>Career at Nexus Digital Solutions</span>
                 </div> */}
               </div>
-              <ul>
+              {/* <ul>
                 <li className='icon'>
                   <BsFacebook size={25} />
                 </li>
@@ -53,38 +98,38 @@ const Contact = () => {
                 <li className='icon'>
                   <AiFillLinkedin size={25} />
                 </li>
-              </ul>
+              </ul> */}
             </div>
             <div className='right w-70'>
               <TitleSm title='Make an online enquiry' />
               <p className='desc-p'>Got questions? Ideas? Fill out the form below to get our proposal. </p>
 
-              <form>
+              <form onSubmit={onSubmit}>
                 <div className='grid-2'>
                   <div className='inputs'>
                     <span>Name</span>
-                    <input type='text' />
+                    <input type='text' name="name" />
                   </div>
                   <div className='inputs'>
                     <span>Email</span>
-                    <input type='text' />
+                    <input type='text' name="email" />
                   </div>
                 </div>
                 <div className='grid-2'>
                   <div className='inputs'>
                     <span>your budget</span>
-                    <input type='text' />
+                    <input type='text' name="budget" />
                   </div>
                   <div className='inputs'>
                     <span>timeframe</span>
-                    <input type='text' />
+                    <input type='text' name="timeframe" />
                   </div>
                 </div>
                 <div className='inputs'>
                   <span>TELL US A BIT ABOUT YOUR PROJECT*</span>
-                  <textarea cols='30' rows='10'></textarea>
+                  <textarea name="projectDetails" cols='30' rows='10'></textarea>
                 </div>
-                <button className='button-primary'>Submit</button>
+                <button className='button-primary' type="submit">Submit</button>
               </form>
             </div>
           </div>
