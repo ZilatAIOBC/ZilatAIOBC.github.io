@@ -30,7 +30,7 @@ const techStackData: Record<string, TechItem[]> = {
       level: "Expert",
       category: "Backend",
       description: "Versatile language for backend and data science",
-      yearsUsed: 1
+      yearsUsed: 2
     },
     {
       name: "Express",
@@ -46,7 +46,7 @@ const techStackData: Record<string, TechItem[]> = {
       level: "Intermediate",
       category: "Backend",
       description: "High-level Python web framework",
-      yearsUsed: 1
+      yearsUsed: 2
     },
     {
       name: "GraphQL",
@@ -54,7 +54,7 @@ const techStackData: Record<string, TechItem[]> = {
       level: "Intermediate",
       category: "Backend",
       description: "Query language for APIs",
-      yearsUsed: 1
+      yearsUsed: 2
     },
     {
       name: "Socket.io",

@@ -52,16 +52,16 @@ const certifications: Certificate[] = [
   //   platformIconSize: 88
   // },
   {
-    title: "Web Development with HTML, CSS, JavaScript Essentials",
+    title: "Introduction to Software Engineering",
     provider: "IBM",
     platform: "Coursera",
-    issued: "January 2023",
-    credentialId: "3UPD6SABRD3B",
-    skills: ["IBM Cloud", "HTML", "CSS", "Full-Stack Development"],
+    issued: "November 2024",
+    credentialId: "HLFDDA9MMVQ9",
+    skills: ["IBM Cloud", "Full-Stack Development"],
     providerIcon: "lineicons:ibm",
     platformIcon: "logos:coursera",
     color: "from-blue-500 to-blue-600",
-    certificatePreview: "/certificates/3UPD6SABRD3B_INTRO_WEB.png",
+    certificatePreview: "/certificates/HLFDDA9MMVQ9.png",
     providerIconSize: 64,
     platformIconSize: 88
   },

@@ -35,6 +35,7 @@ export default function ContactSection() {
       const templateId = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID || 'YOUR_TEMPLATE_ID';
       const publicKey = process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY || 'YOUR_PUBLIC_KEY';
 
+      console.log(serviceId, templateId, publicKey);
       // Send email using EmailJS
       const result = await emailjs.send(
         serviceId,
@@ -43,7 +44,7 @@ export default function ContactSection() {
           from_name: formData.name,
           from_email: formData.email,
           message: formData.message,
-          to_email: 'lightify6@gmail.com', // Your email
+          to_email: 'zilataiobc@gmail.com', // Your email
         },
         publicKey
       );
@@ -224,7 +225,7 @@ export default function ContactSection() {
                     <span className="font-medium">Failed to send message</span>
                   </div>
                   <p className="text-red-600 text-left dark:text-red-500 text-sm mt-1">
-                    Please try again or contact me directly at lightify6@gmail.com
+                    Please try again or contact me directly at zilataiobc@gmail.com
                   </p>
                   {/* add a button to close the message */}
                   <button
@@ -251,7 +252,7 @@ export default function ContactSection() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
               <Link
-                href="mailto:lightify6@gmail.com"
+                href="mailto:zilataiobc@gmail.com"
                 className="inline-flex items-center gap-2 px-6 py-3 bg-white hover:bg-gray-50 dark:bg-gray-800 dark:hover:bg-gray-700 border-2 border-gray-300 hover:border-gray-400 dark:border-gray-600 dark:hover:border-gray-500 rounded-xl font-medium transition-all duration-300 shadow-md hover:shadow-lg"
               >
                 <Icon icon="solar:mailbox-bold-duotone" width={18} height={18} />
@@ -261,7 +262,7 @@ export default function ContactSection() {
 
             <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
               <Link
-                href="/CV.pdf"
+                href="/MuhammadZilUrRehman.pdf"
                 className="inline-flex items-center gap-2 px-6 py-3 bg-white hover:bg-gray-50 dark:bg-gray-800 dark:hover:bg-gray-700 border-2 border-gray-300 hover:border-gray-400 dark:border-gray-600 dark:hover:border-gray-500 rounded-xl font-medium transition-all duration-300 shadow-md hover:shadow-lg"
               >
                 <Icon icon="solar:download-outline" width={18} height={18} />
