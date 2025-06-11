@@ -7,35 +7,36 @@ import SectionHeader from "./SectionHeader";
 const experience = [
   {
     role: "Software Developer",
+    company: "AIOBC, Islamabad",
+    period: "November 2022 — Present",
+    type: "Employee",
+    companyIcon: "fa6-brands:square-upwork",
+    companyColor: "from-green-500 to-green-600",
+    description: "Employ to design and develop sophisticated web applications, including e-commerce websites, and other web-based solutions using a variety of modern technologies and methodologies. Additionally, I successfully implement and manage CI/CD pipelines to ensure seamless automation of testing, deployment, and delivery processes, leveraging tools like Jenkins, GitLab CI/CD, or CircleCI to drive efficiency, reliability, and faster time-to-market.",
+    achievements: [
+      "Enhanced user experience by implementing responsive design and optimizing performance using React JS, Next JS, QuillJS and Tailwind CSS",
+      "Integrated third-party services like Stripe and PayPal for secure payment processing, and OpenAI APIs for intelligent features such as content generation and automation",
+      "Streamlined deployment processes by utilizing AWS services and Docker, resulting in improved deployment speed and reliability",
+      "Improved application scalability by employing Redux for state management and React Hooks for efficient component handling",
+      "Developed robust back-end services with Node JS and Express, connected to MongoDB databases, ensuring data integrity and efficient data handling",
+      "Contributed to team knowledge by sharing expertise in various JavaScript libraries and frameworks, including AnimeJs, Threejs, tsParticlesJs, and Material-UI",
+    ],
+    technologies: ["JavaScript", "Typescript", "Python", "Node.js", "AWS", "GCP", "OpenAI API", "Docker", "Jenkins", "GitLab CI/CD", "React JS", "Next JS"]
+  },
+  {
+    role: "Frontend Developer",
     company: "Upwork",
-    period: "January 2020 — Present",
+    period: "2022",
     type: "Freelance",
     companyIcon: "fa6-brands:square-upwork",
     companyColor: "from-green-500 to-green-600",
-    description: "Delivered high-quality projects across diverse domains, including web applications, API development, and cloud integrations (AWS, GCP).",
+    description: "Employ to develop user-facing features, determine the structure and design of web pages, build reusable codes, and use a variety of markup languages to create dynamic web pages.",
     achievements: [
-      "Achieved Top-Rated status with a 91% job success score",
-      "Completed 10+ projects focusing on scalable solutions",
-      "Consistently praised for skillfulness, quick learning, and strong communication",
-      "Earned repeated engagements through reliability and expertise"
+      "Improved website functionality and user engagement by developing interactive features using REACT JS, Bootstrap5, HTML5, CSS, JavaScript, and jQuery",
+      "Facilitated code reuse and efficiency by building reusable components and template",
+      "Optimized website performance through effective front-end development practices and responsive design implementation",
     ],
-    technologies: ["JavaScript", "Python", "Node.js", "AWS", "GCP", "OpenAI API", "LangChain"]
-  },
-  {
-    role: "HIMS Master Trainer / PACS Specialist",
-    company: "Public Health Organization, Islamabad",
-    period: "July 2019 — Present",
-    type: "Full-time",
-    companyColor: "from-blue-500 to-blue-600",
-    companyIcon: "mdi:hospital-building",
-    description: "Spearheaded organizational transformation from paper-based manual systems to completely integrated HIMS and PACS (Picture Archiving and Communication System).",
-    achievements: [
-      "Led integration of 45+ radiology machines (CT, MRI, X-Ray, Ultrasound)",
-      "Ensured active monitoring for integration issues",
-      "Acted as master trainer and led support team",
-      "Communicated issues and requirements to backend teams"
-    ],
-    technologies: ["HIMS", "PACS", "System Integration", "Healthcare IT", "Training & Support"]
+    technologies: ["JavaScript", "React JS", "Next JS", "Bootstrap5", "HTML5", "CSS", "jQuery"]
   }
 ];
 
