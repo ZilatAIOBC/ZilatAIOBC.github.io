@@ -2,6 +2,7 @@
 
 import { Icon } from "@iconify/react";
 import { motion } from "framer-motion";
+import Image from "next/image";
 import SectionHeader from "./SectionHeader";
 
 const experience = [
@@ -11,6 +12,7 @@ const experience = [
     period: "November 2022 — Present",
     type: "Employee",
     companyIcon: "fa6-brands:square-upwork",
+    companyLogo: "/company_logos/Aiobc_Logo.jpg",
     companyColor: "from-green-500 to-green-600",
     description: "Employ to design and develop sophisticated web applications, including e-commerce websites, and other web-based solutions using a variety of modern technologies and methodologies. Additionally, I successfully implement and manage CI/CD pipelines to ensure seamless automation of testing, deployment, and delivery processes, leveraging tools like Jenkins, GitLab CI/CD, or CircleCI to drive efficiency, reliability, and faster time-to-market.",
     achievements: [
@@ -29,6 +31,7 @@ const experience = [
     period: "2022",
     type: "Freelance",
     companyIcon: "fa6-brands:square-upwork",
+    companyLogo: "/company_logos/RippleBerry_Logo.png",
     companyColor: "from-green-500 to-green-600",
     description: "Employ to develop user-facing features, determine the structure and design of web pages, build reusable codes, and use a variety of markup languages to create dynamic web pages.",
     achievements: [
@@ -123,16 +126,22 @@ export default function ExperienceSection() {
                   <motion.div
                     variants={iconVariants}
                     whileHover={{ scale: 1.1, rotate: 5 }}
-                    className={`w-16 h-16 sm:w-18 sm:h-18 md:w-20 md:h-20 rounded-2xl md:rounded-3xl bg-gradient-to-br ${exp.companyColor} flex items-center justify-center shadow-xl md:shadow-2xl mb-3 md:mb-4 relative overflow-hidden group-hover:shadow-2xl md:group-hover:shadow-3xl transition-all duration-500`}
+                    className={`w-16 h-16 sm:w-18 sm:h-18 md:w-20 md:h-20 rounded-2xl md:rounded-3xl bg-white flex items-center justify-center shadow-xl md:shadow-2xl mb-3 md:mb-4 relative overflow-hidden group-hover:shadow-2xl md:group-hover:shadow-3xl transition-all duration-500`}
                   >
-                    <Icon
+                    {/* <Icon
                       icon={exp.companyIcon!}
                       className="text-white w-8 h-8 sm:w-9 sm:h-9 md:w-10 md:h-10 relative z-10"
                       width={40}
                       height={40}
+                    /> */}
+                    <Image
+                      src={exp.companyLogo}
+                      alt={exp.company}
+                      width={80}
+                      height={80}
                     />
                     {/* Animated background gradient */}
-                    <div className={`absolute inset-0 bg-gradient-to-br ${exp.companyColor} opacity-0 group-hover:opacity-20 transition-opacity duration-500`} />
+                    <div className={`absolute inset-0 bg-white opacity-0 group-hover:opacity-20 transition-opacity duration-500`} />
                   </motion.div>
                 </div>
 
