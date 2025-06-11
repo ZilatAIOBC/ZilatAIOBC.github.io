@@ -7,73 +7,243 @@ import SectionHeader from "./SectionHeader";
 
 const projects = [
   {
-    title: "Checkersvip.com",
-    subtitle: "Professional Online Checkers Platform",
-    description: "A comprehensive multiplayer American checkers platform designed for competitive play with real-time communication capabilities. Currently undergoing official recognition process with the American Checkers Federation (ACF).",
+    title: "Kadastra.ai",
+    subtitle: "AI-Powered Site Assessment Platform",
+    description: "A comprehensive AI-powered platform designed for instant CDC (Complying Development Certificate) compliance checks for property development. The platform leverages artificial intelligence, image analysis, GIS mapping, and deep domain expertise to assess development sites and provide instant compliance reports for property developers, architects, and real estate professionals.",
     features: [
-      "Real-time multiplayer gameplay with WebSocket technology",
-      "Advanced drag-and-drop game mechanics using DnDKit",
-      "Live chat system with emoji support and moderation",
-      "Player ranking and tournament management system",
-      "Spectator mode with real-time game observation",
-      "Mobile-responsive design for cross-platform play",
-      "Game replay and analysis tools",
-      "Social features including friend lists and challenges"
+      "AI-powered site assessment with automated compliance checking",
+      "Instant CDC compliance reports covering all relevant LEP maps and legislation",
+      "Multi-property type support including dual occupancies, granny flats, and alterations & additions",
+      "Smart contract upload system with drag-and-drop functionality",
+      "Real-time GIS mapping integration for accurate site analysis",
+      "Credit-based subscription system with Stripe payment integration",
+      "Multi-role support for architects, developers, real estate agents, and builders",
+      "Secure file storage with AWS S3 integration",
+      "Real-time notification system for user engagement",
+      "Mobile-responsive interface with modern UI/UX"
     ],
     deliverables: [
       "Fully functional web application deployed on production",
-      "Real-time multiplayer game engine",
-      "User authentication and profile management",
-      "Admin dashboard for game moderation",
-      "Tournament management system",
-      "Mobile-optimized responsive interface",
-      "Integration with payment systems for premium features"
+      "AI-powered compliance assessment engine with automated report generation",
+      "User authentication and subscription management system",
+      "Payment processing integration with Stripe for subscription plans",
+      "Admin dashboard for user management and analytics",
+      "Mobile-optimized responsive interface with modern UI/UX",
+      "Secure file upload and storage system with AWS S3",
+      "Multi-tenant architecture supporting different user roles and permissions",
+      "API documentation and backend services with Express.js and MongoDB"
     ],
-    tech: ["Next.js", "NextUI", "Tailwind CSS", "DnDKit", "Fastify", "Redis", "Socket.io", "PostgreSQL", "Prisma", "JWT Authentication", "Stripe API"],
+    tech: ["Next.js", "React", "Tailwind CSS", "Radix UI", "TypeScript", "Express.js", "Node.js", "MongoDB", "Mongoose", "AWS S3", "Stripe API", "JWT Authentication", "React Hook Form", "Zod", "Axios"],
     github: "https://github.com",
-    live: "https://checkersvip.com",
-    gradient: "from-blue-500 to-cyan-500",
+    live: "https://kadastra.ai",
+    gradient: "from-green-500 to-emerald-500",
     status: "Live",
     category: "Web Application",
     highlight: "Featured",
     timeline: "6 months",
-    clientType: "Gaming Industry"
+    clientType: "Real Estate & Development Industry"
   },
   {
-    title: "AskRudy.ai",
-    subtitle: "AI-Powered Document Intelligence Platform",
-    description: "An advanced RAG-based AI chatbot that revolutionizes document interaction through multilingual translation and intelligent conversation capabilities. Features cutting-edge OpenAI multimodal technology for screenshot analysis and real-time text translation.",
+    title: "Chatley.ai",
+    subtitle: "AI-Powered Voice Call Automation Platform",
+    description: "A comprehensive AI voice agent solution that transforms business communication by automating customer calls 24/7. Features advanced conversation AI, real-time call handling, and seamless CRM integration to reduce operational costs by up to 40% while improving customer satisfaction.",
     features: [
-      "RAG (Retrieval-Augmented Generation) architecture for accurate responses",
-      "Multi-format document support (PDF, DOCX, TXT, images)",
-      "OpenAI GPT-4 Vision integration for screenshot analysis",
-      "Real-time multilingual translation (50+ languages)",
-      "Intelligent document chunking and vector embeddings",
-      "Conversational AI with context-aware responses",
-      "Document highlighting and annotation tools",
-      "Export capabilities for translations and summaries",
-      "Collaborative workspace for team document analysis"
+      "24/7 AI voice agents for automated call handling",
+      "Inbound and outbound call automation with intelligent routing",
+      "Multi-language support for global customer interactions",
+      "Real-time call transcription and detailed analytics",
+      "CRM integration with popular business tools via Zapier",
+      "Advanced appointment scheduling and calendar synchronization",
+      "Lead qualification and customer support automation",
+      "Customizable AI agent personalities and conversation flows",
+      "Call forwarding integration with existing business numbers",
+      "Batch calling capabilities for marketing campaigns",
+      "Comprehensive call insights and performance dashboards",
+      "Knowledge base integration for accurate responses",
+      "Phone number provisioning across multiple countries"
     ],
     deliverables: [
-      "Production-ready AI chatbot platform",
-      "Document processing pipeline with OCR capabilities",
-      "Multi-language translation engine",
-      "User dashboard with document management",
-      "Subscription management with Stripe integration",
-      "API documentation and integration guides",
-      "Mobile-responsive Progressive Web App",
-      "Analytics dashboard for usage tracking"
+      "Production-ready AI voice call platform",
+      "Multi-tenant dashboard with agent management",
+      "Voice AI integration with VAPI service",
+      "Subscription management with Stripe billing",
+      "Real-time call analytics and reporting system",
+      "API endpoints for third-party integrations",
+      "Mobile-responsive web application",
+      "Admin panel for user and workspace management",
+      "Automated call queue processing system",
+      "Knowledge base upload and management interface"
     ],
-    tech: ["Next.js", "NextUI", "Vercel AI SDK", "React-PDF", "Firebase", "LangChain", "OpenAI GPT-4", "Pinecone", "Stripe", "Tesseract.js", "PDF.js", "Zustand"],
+    tech: ["React", "Vite", "Node.js", "Express", "MongoDB", "VAPI", "Stripe", "Tailwind CSS", "Firebase", "Zapier", "WebRTC", "Chart.js"],
     github: "https://github.com",
-    live: "https://askrudy.ai",
-    gradient: "from-purple-500 to-pink-500",
+    live: "https://chatley.ai",
+    gradient: "from-purple-600 to-blue-600",
     status: "Live",
-    category: "AI Platform",
+    category: "AI Voice Platform",
+    highlight: "Featured",
+    timeline: "12 months",
+    clientType: "Business & Enterprise"
+  },
+  {
+    title: "RolePlay.ai",
+    subtitle: "AI-Powered Roleplay Training Platform",
+    description: "An advanced learning management system that transforms professional training through AI-driven roleplay simulations. Features intelligent voice conversations, real-time performance analysis, and comprehensive scoring to enhance sales, customer service, and communication skills.",
+    features: [
+      "AI-powered voice simulations with realistic conversation scenarios",
+      "Dynamic scorecard system with customizable assessment criteria",
+      "Real-time performance evaluation and coaching feedback",
+      "Multi-role assignment management (learners, admins, super admins)",
+      "Comprehensive dashboard with analytics and progress tracking",
+      "Voice AI integration with multiple voice personas and languages",
+      "Automated call analysis with performance insights and tips",
+      "Leaderboard system for competitive learning engagement",
+      "Assignment workflows with deadline management",
+      "Detailed call history and replay functionality",
+      "Role-based access control and user management",
+      "Integration capabilities with external learning systems"
+    ],
+    deliverables: [
+      "Production-ready roleplay training platform",
+      "AI voice simulation engine with scenario management",
+      "Comprehensive admin dashboard for training management",
+      "Learner portal with progress tracking and assignments",
+      "Real-time scoring and evaluation system",
+      "User authentication and role management system",
+      "Analytics dashboard with performance metrics",
+      "API endpoints for system integrations",
+      "Responsive web application with modern UI",
+      "Email notification system for assignments and deadlines"
+    ],
+    tech: ["React", "Node.js", "Express", "MongoDB", "Mongoose", "OpenAI", "LangChain", "JWT", "Stripe", "Mailtrap", "TailwindCSS", "Zustand", "React Query", "Vapi AI"],
+    github: "https://github.com",
+    live: "https://roleplay.ai",
+    gradient: "from-blue-500 to-purple-600",
+    status: "Testing",
+    category: "Traning Platform",
+    highlight: "Featured",
+    timeline: "6 months",
+    clientType: "Corporate Training & Education"
+  },
+  {
+    title: "TeacherPayTeacher",
+    subtitle: "Educational Resource Marketplace Platform",
+    description: "A comprehensive marketplace platform connecting educators who create and sell teaching resources with buyers seeking quality educational materials. Features robust payment processing, user management, and resource approval workflows designed specifically for the education sector.",
+    features: [
+      "Multi-role user system (Admin, Seller, Buyer) with tailored dashboards",
+      "Educational resource upload with media support (images, videos, documents)",
+      "Advanced resource categorization by subject, grade level, and difficulty",
+      "Integrated payment processing with PayPal and bank transfer support",
+      "Real-time seller earnings tracking and withdrawal management",
+      "Resource review and rating system with purchase verification",
+      "Admin approval workflow for quality control",
+      "Seller analytics dashboard with sales statistics",
+      "Wishlist functionality for buyers",
+      "Email notifications via Mailtrap integration",
+      "AWS S3 cloud storage for resource files",
+      "Responsive design with Tailwind CSS",
+      "JWT-based authentication with password reset functionality"
+    ],
+    deliverables: [
+      "Full-stack marketplace platform with admin panel",
+      "Seller dashboard with resource management and analytics",
+      "Buyer dashboard with resource browsing and purchasing",
+      "Payment processing system with withdrawal requests",
+      "Resource approval and moderation system",
+      "User authentication and authorization system",
+      "Cloud storage integration for file management",
+      "Email notification system for transactions",
+      "Mobile-responsive web application",
+      "API documentation and database schemas"
+    ],
+    tech: ["React", "Node.js", "Express.js", "MongoDB", "Mongoose", "JWT", "AWS S3", "PayPal API", "Mailtrap", "Tailwind CSS", "Vite", "React Router", "Multer", "Bcrypt"],
+    github: "https://github.com",
+    live: "https://teacherpayteacher.com",
+    gradient: "from-blue-500 to-green-500",
+    status: "Testing",
+    category: "EdTech Marketplace",
+    highlight: "Featured",
+    timeline: "6 months",
+    clientType: "Educational Technology"
+  },
+  {
+    title: "Idea-Lab AI",
+    subtitle: "AI-Powered Content Creation & Style Learning Platform",
+    description: "A revolutionary virtual whiteboard platform that helps creators and businesses generate viral content by learning from successful examples. Upload existing content, let AI analyze the style and structure, then generate new content that matches proven patterns for better SEO and engagement across all platforms.",
+    features: [
+      "Virtual whiteboard interface for content organization and collaboration",
+      "AI-powered content style analysis and pattern recognition",
+      "Multi-format content upload (YouTube videos, images, documents, voice notes)",
+      "Intelligent content generation matching learned styles and structures",
+      "SEO optimization with keyword targeting and ranking strategies",
+      "Cross-platform content repurposing (carousels, Reels, scripts, emails)",
+      "YouTube video transcription and analysis using OpenAI Whisper",
+      "Vector database storage for semantic content similarity matching",
+      "Collaborative workspace management with team sharing capabilities",
+      "OpenAI Assistant integration with custom knowledge bases",
+      "Real-time content generation with streaming responses",
+      "Usage analytics and token tracking for optimization",
+      "File attachment system with vector store integration",
+      "Thread-based conversation management for context retention"
+    ],
+    deliverables: [
+      "Production-ready content creation and analysis platform",
+      "AI style learning engine with pattern recognition capabilities",
+      "Multi-format content processing pipeline (video, audio, text, images)",
+      "Collaborative whiteboard interface with drag-and-drop functionality",
+      "Vector-powered content similarity and recommendation system",
+      "SEO optimization toolkit with keyword analysis",
+      "Cross-platform content repurposing automation",
+      "User authentication and workspace management system",
+      "Analytics dashboard for content performance tracking",
+      "Mobile-responsive Progressive Web Application",
+      "API documentation for third-party integrations",
+      "Content template library with proven viral patterns"
+    ],
+    tech: ["React", "TypeScript", "Vite", "Tailwind CSS", "Shadcn UI", "Express.js", "OpenAI GPT-4", "OpenAI Whisper", "OpenAI Assistants", "Supabase", "Qdrant Vector DB", "FFmpeg", "ytdl-core", "React Query", "Zustand", "Firecrawl", "PDF.js", "Mammoth", "React Flow"],
+    github: "https://github.com",
+    live: "https://idealab-ai.com",
+    gradient: "from-purple-600 to-blue-500",
+    status: "In Development",
+    category: "AI Content Platform",
     highlight: "Featured",
     timeline: "8 months",
-    clientType: "EdTech & Enterprise"
-  }
+    clientType: "Content Creators & Marketing Agencies"
+  },
+  // {
+  //   title: "AskRudy.ai",
+  //   subtitle: "AI-Powered Document Intelligence Platform",
+  //   description: "An advanced RAG-based AI chatbot that revolutionizes document interaction through multilingual translation and intelligent conversation capabilities. Features cutting-edge OpenAI multimodal technology for screenshot analysis and real-time text translation.",
+  //   features: [
+  //     "RAG (Retrieval-Augmented Generation) architecture for accurate responses",
+  //     "Multi-format document support (PDF, DOCX, TXT, images)",
+  //     "OpenAI GPT-4 Vision integration for screenshot analysis",
+  //     "Real-time multilingual translation (50+ languages)",
+  //     "Intelligent document chunking and vector embeddings",
+  //     "Conversational AI with context-aware responses",
+  //     "Document highlighting and annotation tools",
+  //     "Export capabilities for translations and summaries",
+  //     "Collaborative workspace for team document analysis"
+  //   ],
+  //   deliverables: [
+  //     "Production-ready AI chatbot platform",
+  //     "Document processing pipeline with OCR capabilities",
+  //     "Multi-language translation engine",
+  //     "User dashboard with document management",
+  //     "Subscription management with Stripe integration",
+  //     "API documentation and integration guides",
+  //     "Mobile-responsive Progressive Web App",
+  //     "Analytics dashboard for usage tracking"
+  //   ],
+  //   tech: ["Next.js", "NextUI", "Vercel AI SDK", "React-PDF", "Firebase", "LangChain", "OpenAI GPT-4", "Pinecone", "Stripe", "Tesseract.js", "PDF.js", "Zustand"],
+  //   github: "https://github.com",
+  //   live: "https://askrudy.ai",
+  //   gradient: "from-purple-500 to-pink-500",
+  //   status: "Live",
+  //   category: "AI Platform",
+  //   highlight: "Featured",
+  //   timeline: "8 months",
+  //   clientType: "EdTech & Enterprise"
+  // }
 ];
 
 export default function ProjectsSection() {
@@ -269,14 +439,14 @@ export default function ProjectsSection() {
 
                     {/* Action Buttons */}
                     <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 sm:gap-4">
-                      <Link
+                      {/* <Link
                         href={project.github}
                         className="flex items-center justify-center gap-2 md:gap-3 px-4 py-2.5 md:px-6 md:py-3 bg-white/20 backdrop-blur-sm border border-white/30 text-white rounded-lg md:rounded-xl hover:bg-white/30 transition-all duration-300 text-sm font-medium shadow-lg hover:shadow-xl active:scale-95"
                       >
                         <Icon icon="solar:code-bold" width={18} height={18} className="md:w-5 md:h-5" />
                         <span>View Repository</span>
-                      </Link>
-
+                      </Link> */}
+                      {project.status === "Live" && (
                       <Link
                         href={project.live}
                         className="flex items-center justify-center gap-2 md:gap-3 px-4 py-2.5 md:px-6 md:py-3 bg-white text-gray-900 rounded-lg md:rounded-xl hover:bg-gray-100 transition-all duration-300 text-sm font-medium shadow-lg hover:shadow-xl active:scale-95"
@@ -284,6 +454,7 @@ export default function ProjectsSection() {
                         <Icon icon="solar:arrow-up-outline" width={18} height={18} className="md:w-5 md:h-5" />
                         <span>Live Demo</span>
                       </Link>
+                      )}
                     </div>
                   </div>
                 </div>
